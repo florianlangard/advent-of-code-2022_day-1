@@ -15,3 +15,10 @@ foreach ($elves as $elf) {
 $richElf = max($calories);
 
 var_dump($richElf);
+
+// =========== Part Two =====================
+
+rsort($calories);
+
+$top3 = $calories[0] + $calories[1] + $calories[2];
+var_dump($top3);
